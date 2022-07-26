@@ -1,7 +1,7 @@
 FROM ImSpikyBox/DetectiveUbo:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/ImSpikyBox/DetectiveUbot /root/userbot
+RUN git clone https://github.com/ImSpikyBox/DetectiveUbot.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
